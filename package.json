@@ -1,0 +1,23 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "Project Dicoding",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msuryaditriputraR/movies.git"
+  },
+  "author": "msuryaditriputra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msuryaditriputraR/movies/issues"
+  },
+  "homepage": "https://github.com/msuryaditriputraR/movies#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  }
+}

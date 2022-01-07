@@ -4,7 +4,8 @@
   "description": "Project Dicoding",
   "main": "index.html",
   "scripts": {
-    "start:dev": "webpack"
+    "build": "webpack --config webpack.prod.js",
+    "start:dev": "webpack serve --config webpack.dev.js"
   },
   "repository": {
     "type": "git",

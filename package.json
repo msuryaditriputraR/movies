@@ -4,7 +4,7 @@
   "description": "Project Dicoding",
   "main": "index.html",
   "scripts": {
-    "start": "live-server ."
+    "start:dev": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/msuryaditriputraR/movies#readme",
   "devDependencies": {
+    "css-loader": "^6.5.1",
     "eslint": "^7.32.0",
     "prettier": "^2.3.2",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
   }

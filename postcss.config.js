@@ -1,7 +1,12 @@
+const plugins = {
+    autoprexier: {},
+    'rucksack-css': {}
+};
+
+if (process.env.NODE_ENV === 'production') {
+    plugins.cssnano = {};
+}
+
 module.exports = {
-    plugins: {
-        autoprexier: {},
-        cssnano: {},
-        'rucksack-css': {}
-    }
+    plugins
 };

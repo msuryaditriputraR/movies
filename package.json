@@ -4,7 +4,7 @@
   "description": "Project Dicoding",
   "main": "index.html",
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
+    "build": "NODE_ENV=production webpack --config webpack.prod.js",
     "start": "webpack serve --config webpack.dev.js"
   },
   "repository": {

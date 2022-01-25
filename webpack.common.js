@@ -1,4 +1,5 @@
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -13,11 +14,7 @@ module.exports = {
             template: './index.html',
             filename: 'index.html',
             title: 'Movies'
-        })
-    ],
-    optimization: {
-        splitChunks: {
-            chunks: 'all'
-        }
-    }
+        }),
+        new Dotenv()
+    ]
 };

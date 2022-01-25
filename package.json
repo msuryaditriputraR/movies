@@ -4,7 +4,7 @@
   "description": "Project Dicoding",
   "main": "index.html",
   "scripts": {
-    "build": "NODE_ENV=production webpack --config webpack.prod.js",
+    "build": "npx cross-env NODE_ENV=production webpack --config webpack.prod.js",
     "start": "webpack serve --config webpack.dev.js"
   },
   "repository": {
@@ -24,6 +24,7 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
     "cssnano": "^5.0.15",
+    "dotenv-webpack": "^7.0.3",
     "eslint": "^7.32.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.5.2",
@@ -40,7 +41,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "axios": "^0.24.0",
-    "process": "^0.11.10"
+    "axios": "^0.24.0"
   }
 }

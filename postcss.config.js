@@ -1,5 +1,5 @@
 const plugins = {
-    autoprexier: {},
+    autoprefixer: {},
     'rucksack-css': {}
 };
 

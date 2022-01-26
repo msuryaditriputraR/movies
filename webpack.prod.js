@@ -41,7 +41,7 @@ module.exports = merge(common, {
         splitChunks: {
             cacheGroups: {
                 styles: {
-                    name: 'styles',
+                    name: 'main',
                     test: /\.(sa|sc|c)ss$/,
                     chunks: 'all',
                     enforce: true

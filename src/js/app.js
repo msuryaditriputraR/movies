@@ -5,9 +5,9 @@ class App extends HTMLElement {
     }
 
     render() {
-        this.innerHTML = `<h2>Test</h2>`;
+        this.innerHTML = `<h2>Test BEde</h2>`;
     }
 }
 
 const app = defineElement('app', App);
-document.getElementById('root').appendChild(app);
+document.body.appendChild(app);

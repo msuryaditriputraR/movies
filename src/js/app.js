@@ -1,3 +1,5 @@
+import defineElement from './helper/defineElement';
+
 class App extends HTMLElement {
     connectedCallback() {
         this.render();
@@ -8,6 +10,5 @@ class App extends HTMLElement {
     }
 }
 
-customElements.define('my-app', App);
-const app = document.createElement('my-app');
+const app = defineElement('app', App);
 document.getElementById('root').appendChild(app);

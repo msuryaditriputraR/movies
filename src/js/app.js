@@ -1,5 +1,4 @@
 import defineElement from './helper/defineElement';
-
 class App extends HTMLElement {
     connectedCallback() {
         this.render();

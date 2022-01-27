@@ -9,6 +9,18 @@ module.exports = {
         filename: '[name].bundle.js',
         clean: true
     },
+    module: {
+        rules: [
+            {
+                test: /\.(png|jpe?g|gif|svg)$/i,
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]',
+                    outputPath: 'images'
+                }
+            }
+        ]
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: './index.html',

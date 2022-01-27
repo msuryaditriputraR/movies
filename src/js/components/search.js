@@ -11,7 +11,7 @@ class Search extends HTMLElement {
         this.innerHTML = `
             <input type="text" placeholder="${this.placeholder}" class="search-input">
             <${icon} class="search-icon" icon="bx bx-search-alt-2"></${icon}>
-        `;
+            `;
     }
 }
 defineElement('my-search', Search);
